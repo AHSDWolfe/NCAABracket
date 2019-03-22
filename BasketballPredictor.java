@@ -16,22 +16,22 @@ public class BasketballPredictor {
         ArrayList<Team> west = new ArrayList();
 
         //Create Teams For The West Region
-        Team tw1 = new Team("Xavier", "mascot", 1, "west", 1);
-        Team tw2 = new Team("Texas Southern", "mascot2", 1, "west", 16);
-        Team tw3 = new Team("Missouri", "mascot3", 1, "west", 8);
-        Team tw4 = new Team("Florida State", "mascot4", 1, "west", 9);
-        Team tw5 = new Team("Ohio State", "mascot5", 1, "west", 5);
-        Team tw6 = new Team("South Dakota State", "mascot6", 1, "west", 12);
-        Team tw7 = new Team("Gonzaga", "mascot7", 1, "west", 4);
-        Team tw8 = new Team("UNC Greensboro", "mascot8", 1, "west", 13);
-        Team tw9 = new Team("Houston", "mascot9", 1, "west", 6);
-        Team tw10 = new Team("San Diego State", "mascot10", 1, "west", 11);
-        Team tw11 = new Team("Michigan", "mascot11", 1, "west", 3);
-        Team tw12 = new Team("Montana", "mascot12", 1, "west", 14);
-        Team tw13 = new Team("Texas A&M", "mascot13", 1, "west", 17);
-        Team tw14 = new Team("Providence", "mascot14", 1, "west", 10);
-        Team tw15 = new Team("North Carolina", "mascot15", 1, "west", 2);
-        Team tw16 = new Team("Lipscomb", "mascot16", 1, "west", 15);
+        Team tw1 = new Team("Gonzaga", "mascot", 1, "west", 1);
+        Team tw2 = new Team("F. Dickinson", "mascot2", 1, "west", 16);
+        Team tw3 = new Team("Syracuse", "mascot3", 1, "west", 8);
+        Team tw4 = new Team("Baylor", "mascot4", 1, "west", 25);
+        Team tw5 = new Team("Marquette", "mascot5", 1, "west", 21);
+        Team tw6 = new Team("Murray St.", "mascot6", 1, "west", 33);
+        Team tw7 = new Team("Florida St.", "mascot7", 1, "west", 28);
+        Team tw8 = new Team("Vermont", "mascot8", 1, "west", 13);
+        Team tw9 = new Team("Buffalo", "mascot9", 1, "west", 19);
+        Team tw10 = new Team("Arizona State", "mascot10", 1, "west", 43);
+        Team tw11 = new Team("Texas Tech", "mascot11", 1, "west", 31);
+        Team tw12 = new Team("Northern Ky.", "mascot12", 1, "west", 42);
+        Team tw13 = new Team("Nevada", "mascot13", 1, "west", 23);
+        Team tw14 = new Team("Florida", "mascot14", 1, "west", 37);
+        Team tw15 = new Team("Michigan", "mascot15", 1, "west", 17);
+        Team tw16 = new Team("Montana", "mascot16", 1, "west", 15);
 
         //Add Teams To The West Region
         west.add(tw1);
@@ -65,22 +65,22 @@ public class BasketballPredictor {
         ArrayList<Team> south = new ArrayList();
 
         //Create Teams For The South Region
-        Team ts1 = new Team("Virginia", "mascot", 1, "south", 1);
-        Team ts2 = new Team("UMBC", "mascot2", 1, "south", 16);
-        Team ts3 = new Team("Creighton", "mascot3", 1, "south", 8);
-        Team ts4 = new Team("Kansas State", "mascot4", 1, "south", 9);
-        Team ts5 = new Team("Kentucky", "mascot5", 1, "south", 5);
-        Team ts6 = new Team("Davidson", "mascot6", 1, "south", 12);
-        Team ts7 = new Team("Arizona", "mascot7", 1, "south", 4);
-        Team ts8 = new Team("Buffalo", "mascot8", 1, "south", 13);
-        Team ts9 = new Team("Miami", "mascot9", 1, "south", 6);
-        Team ts10 = new Team("Loyola-Chicago", "mascot10", 1, "south", 11);
-        Team ts11 = new Team("Tennessee", "mascot11", 1, "south", 3);
-        Team ts12 = new Team("Wright State", "mascot12", 1, "south", 14);
-        Team ts13 = new Team("Nevada", "mascot13", 1, "south", 17);
-        Team ts14 = new Team("Texas", "mascot14", 1, "south", 10);
-        Team ts15 = new Team("Cincinnati", "mascot15", 1, "south", 2);
-        Team ts16 = new Team("Georgia State", "mascot16", 1, "south", 15);
+        Team ts1 = new Team("Virginia", "mascot", 1, "south", 2);
+        Team ts2 = new Team("Gardner-Webb", "mascot2", 1, "south", 48);
+        Team ts3 = new Team("Mississippi", "mascot3", 1, "south", 30);
+        Team ts4 = new Team("Oklahoma", "mascot4", 1, "south", 41);
+        Team ts5 = new Team("Wisconsin", "mascot5", 1, "south", 36);
+        Team ts6 = new Team("Oregon", "mascot6", 1, "south", 47);
+        Team ts7 = new Team("Kansas St.", "mascot7", 1, "south", 45);
+        Team ts8 = new Team("UC Irvine", "mascot8", 1, "south", 51);
+        Team ts9 = new Team("Villanova", "mascot9", 1, "south", 16);
+        Team ts10 = new Team("Saint Mary's", "mascot10", 1, "south", 20);
+        Team ts11 = new Team("Purdue", "mascot11", 1, "south", 5);
+        Team ts12 = new Team("Old Dominion", "mascot12", 1, "south", 14);
+        Team ts13 = new Team("Cincinnati", "mascot13", 1, "south", 35);
+        Team ts14 = new Team("Iowa", "mascot14", 1, "south", 15);
+        Team ts15 = new Team("Tennessee", "mascot15", 1, "south", 3);
+        Team ts16 = new Team("Colgate", "mascot16", 1, "south", 40);
 
         //Add Teams To The South Region
         south.add(ts1);
@@ -114,22 +114,22 @@ public class BasketballPredictor {
         ArrayList<Team> east = new ArrayList();
 
         //Create Teams For The East Region
-        Team te1 = new Team("Villanova", "mascot", 1, "east", 1);
-        Team te2 = new Team("Radford", "mascot2", 1, "east", 16);
-        Team te3 = new Team("Virginia Tech", "mascot3", 1, "east", 8);
-        Team te4 = new Team("Alabama", "mascot4", 1, "east", 9);
-        Team te5 = new Team("West Virginia", "mascot5", 1, "east", 5);
-        Team te6 = new Team("Murray State", "mascot6", 1, "east", 12);
-        Team te7 = new Team("Wichita State", "mascot7", 1, "east", 4);
-        Team te8 = new Team("Marshall", "mascot8", 1, "east", 13);
-        Team te9 = new Team("Florida", "mascot9", 1, "east", 6);
-        Team te10 = new Team("Texas Tech", "mascot10", 1, "east", 11);
-        Team te11 = new Team("SF Austin", "mascot11", 1, "east", 3);
-        Team te12 = new Team("Arkansas", "mascot12", 1, "east", 14);
-        Team te13 = new Team("Butler", "mascot13", 1, "east", 17);
-        Team te14 = new Team("Purdue", "mascot14", 1, "east", 10);
-        Team te15 = new Team("CSU Fullerton", "mascot15", 1, "east", 2);
-        Team te16 = new Team("team16", "mascot16", 1, "east", 15);
+        Team te1 = new Team("Duke", "mascot", 1, "east", 6);
+        Team te2 = new Team("N. Dakota", "mascot2", 1, "east", 49);
+        Team te3 = new Team("VCU", "mascot3", 1, "east", 53);
+        Team te4 = new Team("UCF", "mascot4", 1, "east", 39);
+        Team te5 = new Team("Mississippi St.", "mascot5", 1, "east", 14);
+        Team te6 = new Team("Liberty", "mascot6", 1, "east", 38);
+        Team te7 = new Team("Virginia Tech", "mascot7", 1, "east", 11);
+        Team te8 = new Team("Saint Louis", "mascot8", 1, "east", 54);
+        Team te9 = new Team("Maryland", "mascot9", 1, "east", 24);
+        Team te10 = new Team("Belmont", "mascot10", 1, "east", 18);
+        Team te11 = new Team("LSU", "mascot11", 1, "east", 10);
+        Team te12 = new Team("Yale", "mascot12", 1, "east", 34);
+        Team te13 = new Team("Louisville", "mascot13", 1, "east", 26);
+        Team te14 = new Team("Minnesota", "mascot14", 1, "east", 10);
+        Team te15 = new Team("Michigan St.", "mascot15", 1, "east", 4);
+        Team te16 = new Team("Bradley", "mascot16", 1, "east", 15);
 
         //Add Teams To The East Region
         east.add(te1);
@@ -161,24 +161,24 @@ public class BasketballPredictor {
 
         //Create Midwest Region Array List
         ArrayList<Team> midwest = new ArrayList();
-
+        
         //Create Teams For The Midwest Region
-        Team tmw1 = new Team("Kansas", "mascot", 1, "midwest", 1);
-        Team tmw2 = new Team("Penn", "mascot2", 1, "midwest", 16);
-        Team tmw3 = new Team("Seton Hall", "mascot3", 1, "midwest", 8);
-        Team tmw4 = new Team("NC State", "mascot4", 1, "midwest", 9);
-        Team tmw5 = new Team("Clemson", "mascot5", 1, "midwest", 5);
-        Team tmw6 = new Team("New Mexico State", "mascot6", 1, "midwest", 12);
-        Team tmw7 = new Team("Auburn", "mascot7", 1, "midwest", 4);
-        Team tmw8 = new Team("Charleston", "mascot8", 1, "midwest", 13);
-        Team tmw9 = new Team("TCU", "mascot9", 1, "midwest", 6);
-        Team tmw10 = new Team("Syracuse", "mascot10", 1, "midwest", 11);
-        Team tmw11 = new Team("Michigan State", "mascot11", 1, "midwest", 3);
-        Team tmw12 = new Team("Bucknell", "mascot12", 1, "midwest", 14);
-        Team tmw13 = new Team("Rhode Island", "mascot13", 1, "midwest", 17);
-        Team tmw14 = new Team("Oklahoma", "mascot14", 1, "midwest", 10);
-        Team tmw15 = new Team("Duke", "mascot15", 1, "midwest", 2);
-        Team tmw16 = new Team("Iona", "mascot16", 1, "midwest", 15);
+        Team tmw1 = new Team("North Carolina", "mascot", 1, "midwest", 7);
+        Team tmw2 = new Team("Iona", "mascot2", 1, "midwest", 52);
+        Team tmw3 = new Team("Utah St.", "mascot3", 1, "midwest", 27);
+        Team tmw4 = new Team("Washington", "mascot4", 1, "midwest", 50);
+        Team tmw5 = new Team("Auburn", "mascot5", 1, "midwest", 8);
+        Team tmw6 = new Team("New Mexico State", "mascot6", 1, "midwest", 32);
+        Team tmw7 = new Team("Kansas", "mascot7", 1, "midwest", 4);
+        Team tmw8 = new Team("Northeastern", "mascot8", 1, "midwest", 60);
+        Team tmw9 = new Team("Iowa St.", "mascot9", 1, "midwest", 9);
+        Team tmw10 = new Team("Ohio St.", "mascot10", 1, "midwest", 44);
+        Team tmw11 = new Team("Houston", "mascot11", 1, "midwest", 22);
+        Team tmw12 = new Team("Georgia St.", "mascot12", 1, "midwest", 46);
+        Team tmw13 = new Team("Wofford", "mascot13", 1, "midwest", 13);
+        Team tmw14 = new Team("Seton Hall", "mascot14", 1, "midwest", 10);
+        Team tmw15 = new Team("Kentucky", "mascot15", 1, "midwest", 12);
+        Team tmw16 = new Team("Abilene Christ.", "mascot16", 1, "midwest", 15);
 
         //Add Teams To The Midwest Region
         midwest.add(tmw1);
@@ -284,19 +284,19 @@ public class BasketballPredictor {
 
         //Check Winners For The Third Round
         for (int x = 0; x < westR2.size(); x += 2) {
-            westR3.add(checkWinner(west.get(x), west.get(x + 1)));
+            westR3.add(checkWinner(westR2.get(x), westR2.get(x + 1)));
         }
 
         for (int x = 0; x < southR2.size(); x += 2) {
-            southR3.add(checkWinner(south.get(x), south.get(x + 1)));
+            southR3.add(checkWinner(southR2.get(x), southR2.get(x + 1)));
         }
 
         for (int x = 0; x < eastR2.size(); x += 2) {
-            eastR3.add(checkWinner(east.get(x), east.get(x + 1)));
+            eastR3.add(checkWinner(eastR2.get(x), eastR2.get(x + 1)));
         }
 
         for (int x = 0; x < midwestR2.size(); x += 2) {
-            midwestR3.add(checkWinner(midwest.get(x), midwest.get(x + 1)));
+            midwestR3.add(checkWinner(midwestR2.get(x), midwestR2.get(x + 1)));
         }
 
         //Print Out Teams In The Third Round of The West Region
@@ -337,19 +337,19 @@ public class BasketballPredictor {
 
         //Check Winners For The Fourth Round
         for (int x = 0; x < westR3.size(); x += 2) {
-            westR4.add(checkWinner(west.get(x), west.get(x + 1)));
+            westR4.add(checkWinner(westR3.get(x), westR3.get(x + 1)));
         }
 
         for (int x = 0; x < southR3.size(); x += 2) {
-            southR4.add(checkWinner(south.get(x), south.get(x + 1)));
+            southR4.add(checkWinner(southR3.get(x), southR3.get(x + 1)));
         }
 
         for (int x = 0; x < eastR3.size(); x += 2) {
-            eastR4.add(checkWinner(east.get(x), east.get(x + 1)));
+            eastR4.add(checkWinner(eastR3.get(x), eastR3.get(x + 1)));
         }
 
         for (int x = 0; x < midwestR3.size(); x += 2) {
-            midwestR4.add(checkWinner(midwest.get(x), midwest.get(x + 1)));
+            midwestR4.add(checkWinner(midwestR3.get(x), midwestR3.get(x + 1)));
         }
 
         //Print Out Teams In The Fourth Round of The West Region
@@ -393,8 +393,8 @@ public class BasketballPredictor {
             leftFinal.add(checkWinner(eastR4.get(x), eastR4.get(x + 1)));
         }
 
-        for (int x = 0; x < southR4.size(); x += 2) {
-            leftFinal.add(checkWinner(southR4.get(x), southR4.get(x + 1)));
+        for (int x = 0; x < westR4.size(); x += 2) {
+            leftFinal.add(checkWinner(westR4.get(x), westR4.get(x + 1)));
         }
         
         //Print Out Teams In The Left Final
@@ -406,8 +406,8 @@ public class BasketballPredictor {
         }
         
         //Check Winners For The Right Final
-        for (int x = 0; x < westR4.size(); x += 2) {
-            rightFinal.add(checkWinner(westR4.get(x), westR4.get(x + 1)));
+        for (int x = 0; x < southR4.size(); x += 2) {
+            rightFinal.add(checkWinner(southR4.get(x), southR4.get(x + 1)));
         }
         
         for (int x = 0; x < midwestR4.size(); x += 2) {
